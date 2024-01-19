@@ -20,16 +20,11 @@ Download the data from:https://drive.google.com/drive/folders/1xw0XX-WK74uxtFFLy
 git init
 
 dvc init
-
 dvc add data_given/winequality.csv
 
-git add .
-
-git commit -m "first commit"
+git add . && git commit -m "first commit"
 
 git remote add origin https://github.com/<USERNAME>/<REPO NAME>.git
-
 git branch -M main
-
 git push -u origin main
 ```
