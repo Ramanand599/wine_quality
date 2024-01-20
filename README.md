@@ -33,3 +33,16 @@ git remote add origin https://github.com/<USERNAME>/<REPO NAME>.git
 git branch -M main
 git push -u origin main
 ```
+After Completing train and evaluate
+```bash
+dvc repro
+```
+```bash
+dvc params diff
+```
+```bash
+dvc metrics show
+```
+```bash
+dvc metrics diff
+```
