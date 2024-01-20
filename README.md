@@ -46,3 +46,14 @@ dvc metrics show
 ```bash
 dvc metrics diff
 ```
+
+For prediction
+install library manualy
+```bash
+pip install pytest
+pip install tox
+```
+or 
+```bash
+pip install requirements.txt
+```
