@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="src",
     version="0.0.1",
-    description="It's a wine Q package",
-    author="Ramanand599",
+    description="its a wine Q package", 
+    author="c17hawke", 
     packages=find_packages(),
-    license="MIT",
+    license="MIT"
 )
